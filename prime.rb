@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  i = 2 
+  i = 3 
   prime = true
   while i <= 9 
     if num % i == 0 || num < 2 || num % i == 1 
