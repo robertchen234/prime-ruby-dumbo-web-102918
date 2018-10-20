@@ -1,9 +1,9 @@
 # Add  code here!
 def prime?(num)
-  i = 3 
+  i = 2
   prime = true
   while i <= 9 
-    if num % i == 0 || num < 2 || num % i == 1 
+    if num % i == 0 || num < 2 || num % i == 1 unless num == 2
       prime = false 
     end
   i += 1
