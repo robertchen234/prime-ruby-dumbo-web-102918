@@ -15,4 +15,5 @@ def prime?(num)
   if prime == 0 
     true 
   end 
+  prime 
 end 
