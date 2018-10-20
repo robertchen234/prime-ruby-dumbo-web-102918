@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   i = 2 
-  prime = true
+  prime = 0
   while i <= 9
     j = 2
     while j <= 9 
@@ -12,5 +12,7 @@ def prime?(num)
     end
     i += 1
   end 
-  prime
+  if prime == 0 
+    true 
+  end 
 end 
